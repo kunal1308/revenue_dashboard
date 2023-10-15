@@ -1,0 +1,35 @@
+.cardWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cardWrapper button {
+    background: none;
+    color: var(--color-white);
+    border: none;
+}
+.cardData {
+    display: flex;
+    gap:0.5rem;
+}
+.cardData img {
+    object-fit: cover;
+    width:13%;
+    border-radius: 5px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding:0px;
+}
+
+@media screen and (max-width: 768px) {
+    .info {
+        font-size: 0.6rem;
+    }
+    .cardData img {
+        width:1rem;
+        height: auto;
+    }
+}

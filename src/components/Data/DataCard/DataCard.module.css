@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    width:22%;
+    height: auto;
+    background-color: var(--color-white);
+    border-radius: 10px;
+    align-items: center;
+}
+.wrapper img {
+    object-fit:contain;
+   width: 5rem;
+     border-radius: 10px;
+}
+.cardInfo {
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+.g1 {
+    color: green;
+}
+.g2 {
+    color: red;
+}
+@media screen and (max-width: 768px) {
+    .wrapper img {
+        width: 55%;
+    }
+}

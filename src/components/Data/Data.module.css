@@ -1,0 +1,151 @@
+.wrapper{
+  height: auto;
+  width: auto;
+}
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 0.9rem;
+}
+.details img {
+  width: 5rem;
+}
+.graph {
+  width: 100%;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  /* padding-left: 2rem;
+  padding-right: 2rem; */
+}
+.graph img {
+  width: 65%;
+  border-radius: 10px;
+}
+.customerInfo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--color-white);
+  width: 25%;
+  border-radius: 10px;
+}
+.customerInfo img {
+  width: 80%;
+}
+.products {
+  margin: 2rem 2.4rem 2rem 2.4rem;
+  background-color: var(--color-white);
+  padding-left: 2rem;
+  padding-top: 1rem;
+  border-radius: 10px;
+  padding-bottom: 1rem;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+.nav {
+  border-radius: 5px;
+  display: flex;
+  gap: 1rem;
+}
+.nav input,
+.nav select {
+  background-color: var(--color-lightGrey);
+  border: none;
+  border-radius: 3px;
+}
+table th {
+    color: var(--color-grey);
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--color-grey);
+}
+table td {
+  font-size: 0.9rem;
+  padding-left: 1rem;
+  /* gap:1rem; */
+}
+.widest {
+  width: 45rem;
+}
+.widest img {
+  object-fit: cover;
+  width: 10%;
+  border-radius: 5px;
+}
+.equal {
+  width: 10rem;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width:100%;
+  }
+  .details img {
+    width: auto;
+    height: 2rem;
+  }
+  .details {
+    font-size: 0.5rem;
+  }
+  .graph {
+    width: auto;
+    height: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .graph img {
+    width: 60%;
+  }
+  .customerInfo {
+    font-size: 0.6rem;
+    width: 30%;
+  }
+  .customerInfo img {
+    height: 60%;
+  }
+  .products {
+    width: auto;
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+  .head {
+    width: 100%;
+    font-size: 0.7rem;
+  }
+  table th,
+  table td {
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 0.8rem;
+    /* padding-left: 0.5rem; */
+    padding-bottom: 0rem;
+  }
+  .widest {
+    width:30rem;
+  }
+  .equal {
+    width: 6rem;
+  }
+  .widest img {
+    height: 2rem;
+    width: 2rem;
+  }
+  .nav input,
+.nav select {
+   max-width: 4.5rem;
+   font-size: 0.5rem;
+}
+.equal {
+  font-size: 0.6rem;
+}
+.nav {
+  gap:0.5rem;
+}
+
+}
