@@ -16,8 +16,6 @@
   padding-top: 2rem;
   display: flex;
   justify-content: space-evenly;
-  /* padding-left: 2rem;
-  padding-right: 2rem; */
 }
 .graph img {
   width: 65%;
@@ -68,7 +66,6 @@ table th {
 table td {
   font-size: 0.9rem;
   padding-left: 1rem;
-  /* gap:1rem; */
 }
 .widest {
   width: 45rem;
@@ -103,7 +100,7 @@ table td {
     width: 60%;
   }
   .customerInfo {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     width: 30%;
   }
   .customerInfo img {

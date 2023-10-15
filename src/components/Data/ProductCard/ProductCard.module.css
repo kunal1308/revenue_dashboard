@@ -17,4 +17,7 @@
     .info {
         font-size: 0.65rem;
     }
+    .cardData img {
+        width: 30%;
+    }
 }

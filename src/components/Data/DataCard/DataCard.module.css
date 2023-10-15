@@ -25,4 +25,7 @@
     .wrapper img {
         width: 55%;
     }
+    .cardInfo {
+        font-size: 0.6rem;
+    }
 }

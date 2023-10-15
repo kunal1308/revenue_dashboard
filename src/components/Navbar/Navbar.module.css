@@ -24,6 +24,7 @@
     .wrapper input {
         width: 30%;
         height: auto;
+        font-size: 0.6rem;
     }
     .greet img {
         width: 0.8rem;
