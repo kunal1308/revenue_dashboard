@@ -7,7 +7,7 @@
     align-items: center;
 }
 .wrapper img {
-    object-fit:contain;
+    object-fit:cover;
    width: 5rem;
      border-radius: 10px;
 }
@@ -23,9 +23,9 @@
 }
 @media screen and (max-width: 768px) {
     .wrapper img {
-        width: 55%;
+        width: 50%;
     }
     .cardInfo {
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
 }
